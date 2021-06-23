@@ -1,7 +1,6 @@
 const registerForm = document.querySelector("#register-form");
 const formMessages = $(".form-message");
 const mainText = document.querySelector("#reallos-main-text");
-const secondaryText = document.querySelector("#reallos-secondary-text");
 
 var firebaseConfig = {
   apiKey: "AIzaSyCzygl9zAt5QdeBVRQwdco4KYGVCogmHkk",
@@ -41,9 +40,6 @@ registerForm.addEventListener("submit", (e) => {
         };
 
         mainText.innerHTML = "Registered!"; // setting the main heading to Registered!
-        secondaryText.innerHTML =
-          "Thank you for Signing up! We will get in touch with you shortly"; // setting the secondary text
-
         $("#register-form input,#contact-form textarea").val(""); // clearing the form
 
         const http = new XMLHttpRequest();
