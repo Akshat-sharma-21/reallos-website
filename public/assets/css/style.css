@@ -1412,6 +1412,31 @@ img {
   }
 }
 
+@media (min-width: 414px) and (max-width: 574px) {
+  /* Targetting width between 415 and 574 */
+  .welcome-area .welcome-thumb .play-btn {
+    height: 65px;
+    width: 65px;
+    margin-left: -8.8vw;
+  }
+}
+
+@media (min-width: 375px) and (max-width: 413px) {
+  .welcome-area .welcome-thumb .play-btn {
+    height: 65px;
+    width: 65px;
+    margin-left: -6.6vw;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 374px) {
+  .welcome-area .welcome-thumb .play-btn {
+    height: 65px;
+    width: 65px;
+    margin-left: -3vw;
+  }
+}
+
 .welcome-area .welcome-thumb .play-btn .btn-circle {
   position: absolute;
   top: 0;
