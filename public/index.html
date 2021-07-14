@@ -59,9 +59,6 @@
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link scroll" href="#team">Team</a>
-                            </li>
-                            <li class="nav-item">
                                 <a class="nav-link scroll" href="#contact">Contact</a>
                             </li>
                         </ul>
@@ -71,8 +68,8 @@
         </header>
         <!-- ***** Header End ***** -->
 
-        <!-- ***** Welcome Area Start ***** -->
-        <section id="home" class="section welcome-area bg-overlay overflow-hidden d-flex align-items-center">
+          <!-- ***** Welcome Area Start ***** -->
+          <section id="home" class="section welcome-area bg-overlay d-flex align-items-center overflow-hidden">
             <div class="container">
                 <div class="row align-items-center">
                     <!-- Welcome Intro Start -->
@@ -80,19 +77,27 @@
                         <div class="welcome-intro">
                             <h1 class="text-white">Real Estate, Real Easy!</h1>
                             <p class="text-white my-4">Let us guide you in your home buying! Enter your email to get started.</p>
-                            <!-- Store Buttons -->
-                           <div>
-                            <form class="subscribe-form d-flex align-items-center" id="form-signup">
-                                <input type="email"  id="notifyemail" class="form-control" placeholder="info@yourmail.com" name="email">
-                                <button type="submit" class="btn">Notify Me</button>
-                            </form>
-                           </div>
+                            <!-- Subscribe Form -->
+                            <div>
+                                <form class="subscribe-form d-flex align-items-center" id="form-signup">
+                                    <input type="email"  id="notifyemail" class="form-control" placeholder="info@yourmail.com" name="email">
+                                    <button type="submit" class="btn">Notify Me</button>
+                                </form>
+                            </div>
                         </div>
                     </div>
                     <div class="col-12 col-md-5 col-lg-6">
                         <!-- Welcome Thumb -->
-                        <div class="welcome-thumb mx-auto" data-aos="fade-left" data-aos-delay="500" data-aos-duration="1000">
-                            <img src="assets/img/welcome/welcome-mockup.png" alt="">
+                        <div class="welcome-thumb text-left text-md-center mx-auto">
+                            <!-- Play Button -->
+                            <a class="play-btn" data-fancybox href="https://www.youtube.com/watch?v=CLyeJDct-Ko">
+                                <div class="btn-circle play-animation"></div>
+                                <div class="btn-circle play-animation animation-short"></div>
+                                <!-- Play Icon -->
+                                <div class="play-icon">
+                                    <i class="fas fa-play"></i>
+                                </div>
+                            </a>
                         </div>
                     </div>
                 </div>
